@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+    margin-left: auto;
+    padding-right: 50px;
+    justify-content: flex-end;
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    height: 60px;
+}
+
+ul.navbar li{
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+h1.name {
+    text-align: center;
+    padding-top: 30px;
+}
+
+img.main {
+    width: 50%;
+    height: auto;
+    padding: 2%;
+}
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+p.first {
+    text-align: center;
+}
+div.second {
+    text-align: justify;
+    width: 70%;
+    height: auto;
+    border-width: 2px;
+    border-color: black;
+}
+
+div.container {
+    background-color: burlywood;
+    width: 250px;
+    height: 650px;
+    margin-top: 5%;
+    margin-left: 17%;
+    padding-top: 6%;
+    padding: 1%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+div.container2 {
+    background-color: burlywood;
+    width: 250px;
+    height: 650px;
+    top: 115.5%;
+    margin-left: 40%;
+    padding-top: 6%;
+    padding: 1%;
+    text-align: justify;
+    position: absolute;
+}
+
+div.container3 {
+    background-color: burlywood;
+    width: 250px;
+    height: 650px;
+    top: 115.5%;
+    margin-left: 63%;
+    padding-top: 6%;
+    padding: 1%;
+    text-align: justify;
+    position: absolute
+}
+
+img.product {
+    padding-top: 10%;
+    width: 98%;
+    height: auto;
+}
+
+div.contact {
+    margin-left: 5%;
+}
+
+img.map {
+    width: 40%;
+    margin-left: 50%;
+    top: 25%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+}
+ img.logo {
+     left: 0%;
+     top: -3.5%;
+     width: 8%;
+     height: auto;
+     position: absolute;
+ }
