@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Times New Roman";
     background-image: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ div.container {
     background-color: burlywood;
     width: 250px;
     height: 650px;
-    margin-top: 5%;
+    margin-top: 6.5%;
     margin-left: 17%;
     padding-top: 6%;
     padding: 1%;
