@@ -1,11 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:"sans-serif";
-    background-image: url("background.jpg");
+    font-family:Times new roman, sans-serif;
+    background-image: url("background.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
 }
 
 ul.navbar {
