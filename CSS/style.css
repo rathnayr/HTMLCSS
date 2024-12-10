@@ -55,12 +55,31 @@ img.main {
 p.first {
     text-align: center;
 }
-div.second {
-    text-align: justify;
-    width: 70%;
-    height: auto;
-    border-width: 2px;
-    border-color: black;
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.second ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second li {
+    margin: 5px 0;
+    text-align: center;
+    width: 90%;
+    padding: 5px 0;
 }
 
 div.container {
